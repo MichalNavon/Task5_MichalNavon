@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'GveretLevin';
+    src: url('../fonts/GveretLevin.eot');
+    src: url('../fonts/GveretLevin.eot?#iefix') format('embedded-opentype'), url('../fonts/GveretLevin.ttf') format('truetype');
+}
+
+body {
+    direction: rtl;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #7ABFA6;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#lightRec {
+    border: none;
+    width: 960px;
+    height: 960px;
+    /*background-color: #F0F2DF;*/
+    background: rgba(240,242,223,0.85);
+    position: absolute;
+}
+
+#teamPic {
+    background-image: url('../images/designTeam.jpg');
+    width: 960px;
+    height: 540px;
+    background-size: 960px 540px;
+    background-repeat: no-repeat;
+}
+
+#hitLogo a {
+    background-image: url('../images/HIT_Logo.png');
+    width: 206px;
+    height: 126px;
+    background-size: 206px 126px;
+    background-repeat: no-repeat;
+    margin-right: 720px;
+    margin-top: 20px;
+    display: block;
+}
+
+#hitLogo:hover {
+    opacity: 0.7;
+}
+
+#arrowHIT {
+    width: 188px;
+    height: 49px;
+    background-image: url('../images/arrowAbout.png');
+    background-repeat: no-repeat;
+    margin-right: 560px;
+    margin-top: -140px;
+}
+
+#techTXT {
+    margin-top: -20px;
+    margin-right: 40px;
+    width: 800px;
+}
+
+#techTXT h1 {
+    font-family: 'GveretLevin';
+    color: #5C6373;
+    font-size: 50pt;
+}
+
+#techTXT p {
+    font-family: Calibri;
+    color: #5C6373;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#arrowForm {
+    background-image: url('../images/arrow.png');
+    width: 60.5px;
+    height: 54.75px;
+    background-size: 60.5px 54.75px;
+    background-repeat: no-repeat;
+    margin-right: 390px;
+    margin-top: -20px;
+    float: right;
+    transform:rotate(20deg);
+}
+
+#formDesign {
+    background-color: #5C6373;
+    width: 400px;
+    height: 180px;
+    margin-top: -22px;
+    margin-right: 500px;
+}
+
+#formDesign p {
+    font-family: Calibri;
+    color: #F0F2DF;
+    font-size: 14pt;
+    margin-right: 20px;
+}
+
+#input {
+    width: 160px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 21px;
+    font-family: Calibri;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: #F0F2DF;
+    border: none;
+}
+
+#sendForm {
+    width: 60px;
+    height: 40px;
+    margin-top: -22px;
+    margin-right: 307px;
+    font-family: GveretLevin;
+    font-size: 18pt;
+    font-weight: bold;
+    background-color: #F0F2DF;
+    color: #56A681;
+    border: none;
+}
+
+#couresesTXT {
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+    #couresesTXT h2 {
+        font-family: Calibri;
+        color: #5C6373;
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    #couresesTXT p {
+        font-family: Calibri;
+        color: #5C6373;
+        font-size: 16pt;
+        text-align: center;
+    }
+
+#bogrimTXT {
+    margin-top: 50px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#bogrimTXT h2 {
+    font-family: Calibri;
+    color: #5C6373;
+    font-size: 20pt;
+    text-align: center;
+}
+
+#bogrimTXT p {
+    font-family: Calibri;
+    color: #5C6373;
+    font-size: 16pt;
+    text-align:center;
+}
+
+#studentTXT {
+    margin-top: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+    #studentTXT h2 {
+        font-family: Calibri;
+        color: #5C6373;
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    #studentTXT p {
+        font-family: Calibri;
+        color: #5C6373;
+        font-size: 16pt;
+        text-align: center;
+    }
